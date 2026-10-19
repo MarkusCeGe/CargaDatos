@@ -1,0 +1,18 @@
+funcion saludar(nombre)
+    mostrar "Hola " + nombre
+fin
+
+funcion contar(limite)
+    i = 0
+    mientras i < limite
+        si i > 1 y i < 4
+            mostrar i
+        sino
+            mostrar "fuera"
+        fin
+        i = i + 1
+    fin
+fin
+
+saludar("Mundo")
+contar(6)
